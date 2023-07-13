@@ -16,7 +16,8 @@ class BingWallpaperMacos < Formula
     run [opt_bin/"bing-wallpaper-macos", "--auto"]
     run_type :interval
     interval 300
-    require_root false
+    log_path "/dev/null"
+    error_log_path "/dev/null"
   end
 
   test do
