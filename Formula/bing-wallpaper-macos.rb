@@ -1,9 +1,9 @@
 class BingWallpaperMacos < Formula
-  version "0.0.3"
+  version "0.0.4"
   desc "Automatically set bing wallpaper every day on macOS"
   homepage "https://github.com/moesnow/bing-wallpaper-macos"
-  url "https://github.com/moesnow/bing-wallpaper-macos/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "6d641c4825957fbe24f27d21c29e93bceb7a891495e7e86485df20b7f88d8498"
+  url "https://github.com/moesnow/bing-wallpaper-macos/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 "455e594937d0318328abf44fdca0ac355c3226f52d5baba578f5b9b5db2ce149"
 
   depends_on "nlohmann-json" => :build
 
