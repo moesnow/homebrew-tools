@@ -1,9 +1,9 @@
 class AutoToggleVpn < Formula
-  version "0.0.1"
+  version "0.0.2"
   desc "Automatically toggle VPN according to Ethernet and Wi-Fi"
   homepage "https://github.com/moesnow/auto-toggle-vpn"
-  url "https://github.com/moesnow/auto-toggle-vpn/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "486d2c359bbc5c7db03b1260d11d33efd7132f013fdd329190231d5333b2a631"
+  url "https://github.com/moesnow/auto-toggle-vpn/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "dc04309a76c6a6b693bd76e2d305cf13b33350818cafb99d57760da7b81b8fef"
 
   depends_on "nlohmann-json" => :build
 
